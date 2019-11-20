@@ -1,0 +1,29 @@
+// Import app variables
+@import 'app-variables';
+
+// Import the theme’s main ruleset - both index and platform specific.
+@import '~nativescript-theme-core/scss/index';
+@import '~nativescript-theme-core/scss/platforms/index.android';
+
+// Import common styles
+@import 'app-common';
+
+
+Button {
+    background-color: rgb(110, 168, 110);
+    color: rgb(48, 47, 79);
+    width: 100;
+    border-width: 1;
+    border-color: transparent;
+    padding: 10;
+    border-radius: 30;
+    text-transform: uppercase;
+}
+
+.page-name {
+    vertical-align: top;
+    text-align: center;
+    font-size: 50;
+    color: gray;
+    text-transform: uppercase;
+}
